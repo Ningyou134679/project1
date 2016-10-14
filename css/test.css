@@ -1,0 +1,119 @@
+body{
+	margin:0;
+	background-color: grey;
+	background-image: url("../image/snow.jpg");
+}
+
+nav a{
+	color: yellow;
+}
+
+header{
+	background-color: black;
+	
+	padding: 1em;
+	
+	display: block;
+	width: 100%;
+}
+
+header h1{
+	color: white;
+	text-align: center;
+}
+
+nav{
+	margin:0;
+}
+
+nav ul{
+	padding: 0;
+	margin:0;
+	text-align: center;
+}
+
+nav ul li{
+	color: yellow;
+	display: inline;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#login-form{
+	width: 1em;
+	
+}
+
+.div1{
+	border: 1em solid;
+	border-radius: 2em;
+	border-style: outset;
+	background-color: white;
+	margin-left: 80%;
+	opacity: 0.8;
+	right: 0;
+	align-self: center;
+	height: 50%;
+	width: 9em;
+	margin-right: 0;
+	position: absolute;
+	float: right;
+}
+
+#div1 p{
+	
+	padding:0.2em 0 0 0.5em;
+	margin:0;
+}
+
+.div-wrapper1{
+	width: 70%;
+	margin-left: 2em;
+	margin-top: 2em;
+	display: block;
+	padding:1em 1em 1em 1em;
+	border: 0.2em solid #CCCCCC;
+	background-color: white;
+	background: rgba(255, 255, 255, .8);
+
+}
+
+
+.white-div{
+	background-color: white;
+	margin:1;
+	opacity: 1;
+	padding:0.5em 1em 0.5em 1em;
+	position: relative;
+	 overflow:scroll;
+}
+
+
+
+#content-img{
+	width: 10em;
+	float: right;
+	position: relative;
+}
+
+#fading-div{
+	height: 300px;
+}
+
+.fading-pics{
+	position: absolute;
+	display: none;
+	left: 0;
+	width: 100%;
+	padding:1;
+}
+
+.error{
+	 color: red;
+   display: none;
+}
+
+#success-login{
+	color: green;
+	display: none;
+}

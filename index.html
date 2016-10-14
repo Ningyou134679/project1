@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <title>Project1</title>
+    <meta name="description" content="CS1520_Project1 10-13-2016">
+    <meta name="author" content="Siming Zheng">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="./js/myscript.js"></script>
+    <link rel="stylesheet" href="./css/test.css">
+	</head>
+	<body>
+		<header>
+			<h1>Project1</h1>
+			<nav>
+				<ul>
+					<li><a href="#">what</a></li>
+					<li><a href="#">is</a></li>
+					<li><a href="#">this</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="draggable" class="ui-widget-content div1">
+			<form id="login-form">
+        <div>
+          <p>Login</p>
+          <p>
+            User Name:<br><input type="text" name="name" pattern="[a-zA-Z0-9]"> 
+          </p> 
+          <p id="name_error" class="error"></p>
+        </div>
+
+        <div>
+          <p>
+            Password:<br><input type="password" name="psw" pattern=".{5,10}" id="pswd"> 
+            <p id="password_error" class="error"></p>
+          </p> 
+       
+        </div>
+        <button type="button" onclick="test_submit()">Submit</button>
+        <input type="reset" name="Reset" />
+      </form>
+      <p id="success-login">Login successful</p>
+		</div>
+		<div class="div-wrapper1">
+			<p><h1>Webpage</h1></p>
+		</div>
+    <div class="div-wrapper1">
+      <div class="white-div" >
+        <img id="content-img" src="./image/test1.png">
+        <h2>Content</h2>
+        <p>Just a testament of a page for project</p>
+        <p>test</p>
+      </div>
+    </div>
+    <div class="div-wrapper1">
+      <div class="white-div" id="fading-div">
+        <img src="./image/snow.jpg" width="300" height="300" alt="" id="picOne" class="fading-pics"/>
+        <img src="./image/grass.jpg" width="300" height="300" alt="" id="picTwo" class="fading-pics"/>
+      </div>
+    </div>
+	</body>
+</html>
